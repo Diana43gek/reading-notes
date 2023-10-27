@@ -1,0 +1,33 @@
+ Code 201 - Foundations of Software Development
+the reason this topic matter is showing how to add images in the HTML and in CSS. being able to add pitures
+and text to your web page for design.
+# HTML Media
+--What is a real world use case for the alt attribute being used in a website?
+  The 'alt' attribute in HTML is used to provide alternative text for images.
+  The primary purpose is to improve the accessibility of a website for users who cannot see the images.
+
+--How can you improve accessibility of images in an HTML document?
+   Provide a concise and descriptive text alternative for each image using the 'alt' attribute. 
+  use Use semantic HTML, like <figure> and <figcaption> to provide additional context and description
+  Ensure good contrast and avoid text within images.
+
+Provide an example of when the figure element would be useful in an HTML document.
+<figure>
+  <img src="starry-night.jpg" alt="Starry Night by Vincent van Gogh">
+  <figcaption>The iconic painting "Starry Night" by Vincent van Gogh.</figcaption>
+</figure>
+Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+  Graphics Interchange Format and Scalable Vector Graphics are types of image formats.
+  GIF are a series of pictures are shown quickly to make a simple animation like a flipbook.
+   is like a set of instructions for drawing pictures.GIF is good for fun animations And SVG are great for logos.
+What image type would you use to display a screenshot on your website and why?
+  When displaying a screenshot on a website, it's often best to use a PNG (Portable Network Graphics) image
+   it retains high quality and sharpness.
+
+    ##CSS
+Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+What should you consider when choosing fonts for an HTML document?
+What do font-size, font-weight, and font-style do to HTML text elements?
+Describe two ways you could add spacing around the characters displayed in an h1 element.
+The foreground color is like the color of the words on the pages, and the background color is like the color of the paper the words are written on.
